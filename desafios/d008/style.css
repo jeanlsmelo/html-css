@@ -1,0 +1,17 @@
+body#cinza{
+  background-color: rgb(240, 231, 231);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+body#verde{
+  background-color:rgb(144, 204, 144);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(7, 61, 7);
+}
+body#amarelo{
+  background-color: rgb(243, 243, 205);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(158, 117, 55);
+}
