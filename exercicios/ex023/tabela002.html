@@ -13,6 +13,7 @@
       table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
 
       td, th{
@@ -25,6 +26,16 @@
         font-weight: bold;
         padding: 10px;
         background-color: rgb(218, 205, 205);
+      }
+
+      thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: #383838;
+      }
+
+      tbody > tr:nth-child(even){
+        background-color: lightgray;
       }
 
       td.numero{
