@@ -25,15 +25,30 @@
       border: 1px solid black;
       padding: 8px;
     }
+
+    .destaque{
+      background-color: aquamarine;
+    }
+
+    .cnome,.cidade{
+      background-color: aqua;
+    }
+
   </style>
 </head>
 <body>
   <h1>Exercício de Tabela</h1>
 
   <table>
+      <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+      </colgroup>
       <caption>Cadastro</caption>
       <tr>
-        <th scope="col">Nome</th>
+        <th scope="colgroup">Nome</th>
         <th scope="col">Sexo</th>
         <th scope="col">Idade</th>
         <th scope="col">Profissão</th>
